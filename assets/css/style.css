@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+:root {
+  --bg-color: #202020;
+  --text-clr: rgb(238, 238, 238);
+
+  /* shades of yellow */
+  --yellow-clr-dark: rgb(139, 139, 17);
+  --yellow-clr: #d1ce1b;
+  --yellow: #ffdf6c;
+  --yellow-clr-light: rgb(243, 240, 80);
+
+  /* dark grey */
+  --dark-grey: #333;
+  --grey-clr: #404040;
+
+  /* shadow with black*/
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  /* shadow with white */
+  --white-light: 0 5px 15px rgba(255, 255, 255, 0.2);
+  --white-dark: 0 5px 15px rgba(255, 255, 255, 0.8);
+
+  --transition: all 0.3s ease-in-out;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+
+  /* width */
+  --max-width: 1170px;
+  --fixed-width: 620px;
+
+}
+
+#home,
+#about,
+#projects,
+#contact {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-clr);
+  text-shadow: var(--dark-shadow);
+  font-family: "Montserrat", sans-serif;
+
+}
+/* nav links */
+.bg-dark a{
+  text-decoration: none;
+  margin: 1rem;
+}
+.bg-dark a:hover{
+  background-color: var(--bg-color);
+  padding: 8px 16px;
+  color: var(--yellow);
+}
+/* HEADER */
+header {
+  height: 100vh;
+  background-image: url("../img/bg-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* END HEADER */
+
+/* Home Section */
+#home h3 {
+  font-size: 3rem;
+  font-weight: 200;
+}
+#home h5{
+  font-style: italic;
+  font-weight: 400;
+}
+
+ .text-center {
+  background: var(--bg-color);
+  border-color: var(--yellow);
+  padding: 8px 16px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+ .text-center a {
+  text-decoration: none;
+  color: var(--text-clr);
+}
+
+ .text-center a:hover {
+  cursor: pointer;
+  color: var(--yellow);
+}
+
+@media screen and (max-width:768px) {
+  #home {
+    transform: translate(10%);
+  }
+}
+
+/* End Home Section */
+
+/* About Section */
+#about {
+  background-color: #0e0d0d;
+  position: relative;
+}
+
+#about::before {
+  content: "";
+  position: absolute;
+  height: 90px;
+  width: 50%;
+  top: -48px;
+  left: 0;
+  transform: skewY(8deg);
+  background: #0e0d0d;
+}
+
+#about::after {
+  content: "";
+  position: absolute;
+  height: 90px;
+  width: 50%;
+  top: -48px;
+  right: 0;
+  transform: skewY(-8deg);
+  background: #0e0d0d;
+}
+
+#about h5,
+h4 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  letter-spacing: .1rem;
+
+}
+#about h5, h4{
+  margin-top: 1rem;
+  text-align: center;
+}
+#about h4{
+  margin-bottom: 0.2rem;
+}
+.about-title{
+  margin-top: 2rem;
+  width: 50vw;
+  letter-spacing: .1rem;
+  text-align: center;
+}
+
+
+/* SKILL SECTION */
+.section-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.skill-icon {
+  box-shadow: 0 5px 15px rgba(255, 255, 0, 0.2);
+  padding: 8px 16px;
+  margin: 1.5rem;
+}
+
+.skill-icon i {
+  font-size: 3rem;
+}
+
+/* ABOUT SECTION MEDIA QUERY */
+@media screen and (max-width:501px) {
+  #about::before {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 50%;
+    top: -48px;
+    left: 0;
+    transform: skewY(-8deg);
+    background: #0e0d0d;
+  }
+
+  #about::after {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 50%;
+    top: -48px;
+    right: 0;
+    transform: skewY(8deg);
+    background: #0e0d0d;
+  }
+.about-title{
+  width: 100%;
+  margin: .5rem;
+}
+  #about h5,
+  h4 {
+    margin-left: 1rem;
+  }
+  .skill-icon i {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width:768px max-width:801px){
+  .skill-icon i {
+    font-size: 3rem;
+  }
+}
+
+/* PROJECT SECTION */
+#projects{
+  background-image: url("../img/project-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#projects .text-center{
+  margin: 1rem;
+}
+.card{
+  margin: 1rem;
+box-shadow: var(--dark-shadow);
+transform: scale(1);
+
+}
+.card:hover{
+transform: scale(1.1);
+}
+.card-title,.card-text{
+  color: var(--bg-color);
+  text-align: center;
+}
+/* END PROJECTS SECTION */
+
+/* CONTACT SECTION */
+#contact{
+  background: var(--bg-color);
+}
+#contact .section-title{
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  
+
+}
+#contact .text-center button{
+    background: var(--bg-color);
+    border-color: var(--yellow);
+    padding: 8px 16px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+#contact .text-center button:hover {
+  cursor: pointer;
+  color: var(--yellow);
+ }
+ #contact .contact-me-form{
+  opacity: 0.8;
+   box-shadow: 0 5px 15px rgba(255, 255, 0, 0.1);
+   margin-bottom: 1.5rem;
+ }
+ .form-control{
+   margin-top: 0.7rem;
+ }
+/* END CONTACT SECTION */
+
+/* FOOTER SECTION */
+.footer-link{
+  background-color:var(--bg-color);
+  color: var(--text-clr);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+letter-spacing: .1rem;
+box-shadow: 0 5px 15px rgba(255, 255, 0, 0.2);
+}
+.footer-title{
+  margin-top: .5rem;
+}
+.social-links i{
+  color: var(--text-clr);
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+.social-links i:hover{
+  color: var(--yellow);
+}
