@@ -115,9 +115,9 @@ header {
   position: absolute;
   height: 90px;
   width: 50%;
-  top: -48px;
+  top: -45px;
   left: 0;
-  transform: skewY(8deg);
+  transform: skewY(7deg);
   background: #0e0d0d;
 }
 
@@ -126,9 +126,9 @@ header {
   position: absolute;
   height: 90px;
   width: 50%;
-  top: -48px;
+  top: -45px;
   right: 0;
-  transform: skewY(-8deg);
+  transform: skewY(-7deg);
   background: #0e0d0d;
 }
 
