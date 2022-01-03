@@ -525,7 +525,7 @@ Sidebar
   left: 0;
   width: 100%;
   height: 100%;
-  border: 0.25rem solid var(--clr-white);
+  border: 0.25rem solid var(--text-clr);
   border-radius: var(--radius);
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -561,9 +561,13 @@ Sidebar
     grid-template-rows: 200px 200px;
 
     gap: 1rem;
-    grid-template-areas:
+    /* grid-template-areas:
       "a b b"
-      "a c d";
+      "a c d"; */
+      grid-template-areas:
+      "a b b"
+      "a b b"
+     ;
   }
   .project-img {
     height: 100%;
