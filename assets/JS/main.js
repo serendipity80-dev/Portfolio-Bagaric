@@ -34,7 +34,7 @@ const projects = [
         category: "css",
         img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1636972250/samples/projects/for-the-love-of-wine_vopc8t.png",
         demo: "https://serendipity80-dev.github.io/For-the-Love-of-Wine/",
-        description:"Personal project. small family vinery who's got their distribution. The project is ongoing..."
+        description:"Personal project. small family business, wine production, and distribution. The project is ongoing..."
 
     },
     {
