@@ -141,7 +141,7 @@ p {
     width: 95vw;
   }
 }
-/* added during recording */
+
 .underline {
   width: 5rem;
   height: 0.25rem;
@@ -157,11 +157,8 @@ p {
 .bg-grey {
   background: var(--clr-grey-10);
 }
-/*
-=============== 
-Navbar
-===============
-*/
+/*Navbar*/
+
 .nav-links {
   display: none;
 }
