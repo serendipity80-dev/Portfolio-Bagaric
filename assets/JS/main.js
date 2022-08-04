@@ -34,7 +34,7 @@ const projects = [
         category: "css",
         img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1636972250/samples/projects/for-the-love-of-wine_vopc8t.png",
         demo: "https://serendipity80-dev.github.io/For-the-Love-of-Wine/",
-        description:"Personal project. small family business, wine production, and distribution. The project is ongoing..."
+        description:"Private project. Winery, small family business."
 
     },
     {
@@ -43,19 +43,20 @@ const projects = [
         category: "MERN",
         img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1641242205/samples/projects/Two_Way_Street_fdudfc.png",
         demo: "https://client-b05jnlwng-serendipity80-dev.vercel.app/",
-        description:" our team final project with which we completed a 1-year bootcamp training at DCI. We used MERN stack technology. I was responsible for landing page."
+        description:" Our team final project with which we completed a 1-year Bootcamp training at DCI. We used MERN stack technology. I was responsible for the landing page."
 
     },
 
 
-    // {
-    //     id:3,
-    //     title: "search photo app",
-    //     category: "react-js",
-    //     img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1636972272/samples/projects/search-photo_hzlhg2.png",
-    //     demo: "https://serendipity80-dev.github.io/Photo-searcher/"
+    {
+        id:3,
+        title: "portfolio",
+        category: "javascript",
+        img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1659539565/samples/projects/Bagaric_begwtb.png",
+        demo: "https://bagaric.vercel.app/",
+        description:"Small private project - Portfolio"
 
-    // },
+    },
     // {
     //     id:4,
     //     title: "weather app",
