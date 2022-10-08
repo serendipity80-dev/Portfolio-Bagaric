@@ -39,11 +39,11 @@ const projects = [
     },
     {
         id:2,
-        title: "Two Way Street",
-        category: "MERN",
-        img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1641242205/samples/projects/Two_Way_Street_fdudfc.png",
-        demo: "https://client-b05jnlwng-serendipity80-dev.vercel.app/",
-        description:" Our team final project with which we completed a 1-year Bootcamp training at DCI. We used MERN stack technology. I was responsible for the landing page."
+        title: "Tic Tac Toe",
+        category: "js",
+        img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1665216187/samples/projects/Tic-Tac-Toe_fj1cnk.png",
+        demo: "https://serendipity80-dev.github.io/Tic-Tac-Toe/",
+        description:" Tic Tac Toe"
 
     },
 
@@ -51,7 +51,7 @@ const projects = [
     {
         id:3,
         title: "portfolio",
-        category: "javascript",
+        category: "js",
         img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1659539565/samples/projects/Bagaric_begwtb.png",
         demo: "https://bagaric.vercel.app/",
         description:"Small private project - Portfolio"
