@@ -57,14 +57,14 @@ const projects = [
         description:"Small private project - Portfolio"
 
     },
-    // {
-    //     id:4,
-    //     title: "weather app",
-    //     category: "react-js",
-    //     img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1636972281/samples/projects/weather_lpr63p.png",
-    //     demo: "https://serendipity80-dev.github.io/Weather-App/"
+    {
+        id:4,
+        title: "weather app",
+        category: "reactjs",
+        img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1636972281/samples/projects/weather_lpr63p.png",
+        demo: "https://vercel.com/serendipity80-dev/weather-app"
 
-    // },
+    },
   
 ];
 
