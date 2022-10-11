@@ -61,8 +61,9 @@ const projects = [
         id:4,
         title: "weather app",
         category: "reactjs",
-        img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1636972281/samples/projects/weather_lpr63p.png",
-        demo: "https://vercel.com/serendipity80-dev/weather-app"
+        img: "https://res.cloudinary.com/dbiqsk9jz/image/upload/v1665476240/samples/projects/Weather_lf1jyy.png",
+        demo: "https://vercel.com/serendipity80-dev/weather-app",
+        description:"Weather -app"
 
     },
   
